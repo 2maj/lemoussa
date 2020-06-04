@@ -1,0 +1,4 @@
+app_example_index:
+  path: /example
+  defaults:
+    _controller: App\Controller\ExampleController:index
