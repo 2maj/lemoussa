@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}adji moussa{% endblock %}
+
+{% block body %}
+<section class="container" id="begin">
+    <div class="section">
+        <div class="hero has-text-centered is-large">
+            <div class="section  me_box">
+                <div class="has-text-centered">
+                    <i class="fas fa-user-tie column"></i>
+                    <h1 class="title is-1 is-inline column">{{"Qui suis-je ?"}}</h1>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p class="has-text-justified has-text-grey-dark">
+                            On sait depuis longtemps que travailler avec du texte lisible et
+                            contenant du sens est source de distractions, et empêche de se
+                            concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum
+                            sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il
+                            possède une distribution de lettres plus ou moins normale, et en tout
+                        </p>
+                    </div>
+                    <div class="column has-text-centered">
+                        <img class="round" src="https://fakeimg.pl/350x200/?text={{"Qui suis-je ?"}}">
+                    </div>
+                    <div class="column">
+                        <p class="has-text-justified">
+                            Nombreuses suites logicielles
+                            de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une
+                            recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase
+                            de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement
+                            (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="hero is-light is-large">
+            <div class="section formation_box">
+                <div class="has-text-centered">
+                    <i class="fas fa-graduation-cap column"></i>
+                    <h1 class="title is-1 is-inline column">{{ "Mes formations" }}</h1>
+                </div>
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-4 is-vertical is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">One</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                        <div class="tile is-child box">
+                            <p class="title">Two</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <p class="title">Three</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                            <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+                            <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="columns has-text-centered">
+                    <div class="column">
+                        <div>
+                            <img src="https://fakeimg.pl/350x200/?text=Hello">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div>
+                            <img src="https://fakeimg.pl/350x200/?text=Hello">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img src="https://fakeimg.pl/350x200/?text=Hello">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

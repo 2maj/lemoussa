@@ -1,0 +1,5 @@
+app_example:
+  resource: "routes/example.yaml"
+
+app_home:
+  resource: "routes/home.yaml"

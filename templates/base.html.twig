@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html  xmlns:https="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-        <title>{% block title %}{% endblock %}</title>
+        <script src="https://kit.fontawesome.com/9dec6f6ffb.js" crossorigin="anonymous"></script>        <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
-    <body>
+    <body style="min-width:270px">
         {% block header %}
             {% include('header.html') %}
         {% endblock %}
         {% block body %}{% endblock %}
+        {% block footer %}
+            {% include('footer.html') %}
+        {% endblock %}
+        <script src="{{ asset('assets/js/main.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

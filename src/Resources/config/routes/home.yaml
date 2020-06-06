@@ -1,0 +1,4 @@
+app_home_index:
+  path: /
+  defaults:
+    _controller: App\Controller\HomeController:index

@@ -1,74 +1,59 @@
-<nav class="navbar is-transparent">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-        </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item" href="https://bulma.io/">
-                Home
+<header>
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ path('app_home_index') }}">
+                <img src="{{ asset('assets/images/logo_snkrs.png') }}" alt="moussa adji logo">
             </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
-                    Docs
-                </a>
-                <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                        Overview
-                    </a>
-                    <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                        Modifiers
-                    </a>
-                    <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                        Columns
-                    </a>
-                    <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                        Layout
-                    </a>
-                    <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                        Form
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                        Elements
-                    </a>
-                    <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                        Components
-                    </a>
-                </div>
+            <div class="navbar-burger burger nav-toggle has-text-white" data-target="navbar">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="field is-grouped">
-                    <p class="control">
-                        <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-                            <span>
-                Tweet
-              </span>
-                        </a>
-                    </p>
-                    <p class="control">
-                        <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.8.2/bulma-0.8.2.zip">
-              <span class="icon">
-                <i class="fas fa-download"></i>
-              </span>
-                            <span>Download</span>
-                        </a>
-                    </p>
+        <div id="navbar" class="navbar-menu">
+            <div class="navbar-end">
+            <a class="navbar-item" href="https://bulma.io/">Home</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="{{ '#' }}">Qui suis-je?</a>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"  href="{{ '#' }}">Mes activités</a>
+                <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item"  href="{{ '#' }}">Mes projets</a>
                 </div>
             </div>
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="bd-tw-button button" data-social-network="Linkedin" data-social-action="linkedin" data-social-target='{{ "https://www.linkedin.com/in/moussa-adji-mahamat/" }}' target="_blank" href='{{ "https://www.linkedin.com/in/moussa-adji-mahamat/" }}'">
+                                <span class="icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </span>
+                                <span>Lindedin</span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="button is-primary" href="{{ '#' }}">
+                                <span class="icon">
+                                    <i class="fas fa-download"></i>
+                                </span>
+                                <span>Télécharcher mon CV</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </nav>
+    <div class="hero is-large" id="hero_hedear">
+        <div class="hero-body has-text-centered">
+            <h1 class="title is-1 has-text-dark">Moussa Mahamat <br/>ADJI</h1>
+        </div>
+        <div class="hero-footer" id="header-footer">
+            <a class="is-hoverable has-text-dark" style="font-size: 5em;" href="#begin">
+            <div class="has-text-centered">
+                V
+            </div></a>
         </div>
     </div>
-</nav>
+</header>

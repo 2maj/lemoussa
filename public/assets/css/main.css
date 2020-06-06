@@ -1,0 +1,58 @@
+@font-face {
+    font-family: sevemfbr;
+    src: url("../css/fonts/seven-monkey-fury-bb/seven-monkey-fury-bb.regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: suigeneris;
+    src: url("../css/fonts/sui-generis-free/suigenerisrg.ttf") format('truetype');
+}
+@font-face {
+    font-family: yelloginger;
+    src: url("../css/fonts/yellow-ginger/yelloginger.ttf") format('truetype');
+}
+#hero_hedear h1{
+    font-family: yelloginger;
+    font-size: 7em;
+    color: #222222;
+}
+h1{
+    font-family: yelloginger;
+}
+
+#hero_hedear{
+    background-image: url("../images/backgrounds/background_all.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-footer:hover{
+    background-image: linear-gradient(#9ab2b3, white);
+}
+
+.formation_box .fas, .me_box .fas{
+    font-size: 3em;
+}
+
+.me_box div{
+    margin-top: 2em;
+}
+
+
+.round {
+    border-radius: 50%;
+}
+.container .hero {
+    margin: 2em 0 2em 0;
+}
+
+
+
+
+
+
+
+
+#contact-box-footer{
+    width: 60%;
+}
